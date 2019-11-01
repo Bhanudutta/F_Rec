@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import pickle 
 from os import walk
+from matplotlib import pyplot as plt
 
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
@@ -51,7 +52,9 @@ while(1):
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
     #out.write(img);	
-    cv2.imshow("out",img);	
+    #cv2.imshow("out",img);
+    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB));
+    plt.pause(0.01)
     #cv2.imwrite("dta/"+str(i)+".jpg",img)
     cv2.waitKey(1);
     i+=1;
