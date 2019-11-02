@@ -5,11 +5,11 @@
 
 1. **INSTALLATION**
 
-    RUN: python3 -m pip install -r requirements.txt to install requirements
+    RUN: "python3 -m pip install -r requirements.txt" to install requirements
 
 2. **TRAINING**
 
-    2.1 Run: python3 fr_train.py
+    2.1 Run: "python3 fr_train.py"
 
     2.2 enter your name (name of person you are training the model of)
     
@@ -17,7 +17,7 @@
 
 3. **RECOGNIZING**
 
-    3.1 Run: python3 recog.py
+    3.1 Run: "python3 recog.py"
     3.2 Move in front of webcam , a box with the name of recognized person will appear on each person
     3.3 If the person is not recognized, it will print "Unknown".
     
