@@ -54,8 +54,6 @@ while(1):
     #out.write(img);	
     #cv2.imshow("out",img);
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB));
-    plt.pause(0.01)
+    plt.pause(0.001)
     #cv2.imwrite("dta/"+str(i)+".jpg",img)
-    cv2.waitKey(1);
     i+=1;
-cv2.destroyAllWindows()
