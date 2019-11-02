@@ -18,7 +18,9 @@
 3. **RECOGNIZING**
 
     3.1 Run: "python3 recog.py"
+    
     3.2 Move in front of webcam , a box with the name of recognized person will appear on each person
+    
     3.3 If the person is not recognized, it will print "Unknown".
     
 4.  **TERMINATION**
